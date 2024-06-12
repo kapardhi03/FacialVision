@@ -62,7 +62,7 @@ The `faces_train.py` script is used to train the face recognizer. Here’s what 
 - **features.npy**: This file contains a NumPy array of the face regions (features) detected from the training images. It is used to store the training data for the face recognizer.
 - **labels.npy**: This file contains a NumPy array of labels corresponding to each face region in `features.npy`. These labels are indices that map to the names of the persons (directories).
 
-### Notes on OpenCV's Built-in Face Recognizer
+### NOTE
 
 While OpenCV's built-in face recognizer (LBPH) is convenient and easy to use, it may not provide the highest accuracy for face recognition tasks, especially with larger and more diverse datasets. For more robust and accurate face recognition, consider using deep learning-based methods, such as those provided by libraries like Dlib or face_recognition, which leverage pre-trained models.
 
