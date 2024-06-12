@@ -49,6 +49,6 @@ The face detection script is available in the `face_recog.py` file. This script 
 
 The face recognition training script is available in the `faces_train.py` file. This script trains the face recognizer using images stored in the `images` directory. Ensure your image directory structure matches the one mentioned above.
 
-## Notes on OpenCV's Built-in Face Recognizer
+## Note
 
 While OpenCV's built-in face recognizer (LBPH) is convenient and easy to use, it may not provide the highest accuracy for face recognition tasks, especially with larger and more diverse datasets. For more robust and accurate face recognition, consider using deep learning-based methods, such as those provided by libraries like Dlib or face_recognition, which leverage pre-trained models.
